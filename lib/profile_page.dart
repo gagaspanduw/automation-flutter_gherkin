@@ -51,8 +51,9 @@ class _ProfilePageState extends State<ProfilePage> {
                     style: tsProp,
                   ),
                   Text(
-                    'Multazam Arroihan Gusdiansyah',
+                    'Zonen GAJAYANA',
                     style: tsValue,
+                    key: Key('namaField'),
                   ),
                   SizedBox(height: 12),
                   Text(
@@ -60,8 +61,9 @@ class _ProfilePageState extends State<ProfilePage> {
                     style: tsProp,
                   ),
                   Text(
-                    'multazamgsd@gmail.com',
+                    'zonen@getnada.com',
                     style: tsValue,
+                    key: Key('emailField'),
                   ),
                   SizedBox(height: 12),
                   Text(

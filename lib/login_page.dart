@@ -33,6 +33,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: Column(
                     children: <Widget>[
                       TextFormField(
+                        key: Key('inputEmail'),
                         controller: _emailInputController,
                         decoration: const InputDecoration(
                           contentPadding: EdgeInsets.symmetric(
@@ -46,6 +47,7 @@ class _LoginPageState extends State<LoginPage> {
                         height: 4.0,
                       ),
                       TextFormField(
+                        key: Key('inputPassword'),
                         obscureText: true,
                         decoration: const InputDecoration(
                           hintText: 'Password',
@@ -69,6 +71,7 @@ class _LoginPageState extends State<LoginPage> {
                           horizontal: 42.0,
                         ),
                         child: RaisedButton(
+                          key: Key('loginButton'),
                           child: !_isLoginLoading ? Text('Log In') :
                             SizedBox(
                               height: 14,
