@@ -28,6 +28,7 @@ class _ProfilePageState extends State<ProfilePage> {
         brightness: Brightness.dark,
         elevation: 1,
         leading: IconButton(
+          key: Key('iconBack'),
           icon: Icon(Icons.arrow_back, color: Colors.black),
           onPressed: () => Navigator.pop(context)
         )
