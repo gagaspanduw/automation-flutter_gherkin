@@ -24,7 +24,7 @@ $flutter doctor --android-licenses
 - install dart
 - install flutter gherkin -> https://pub.dev/packages/flutter_gherkin
 
-Use thi package as a library to your package's pubspec.yaml
+Use this package as a library to your package's pubspec.yaml
 ```
 $flutter pub get
 ```
