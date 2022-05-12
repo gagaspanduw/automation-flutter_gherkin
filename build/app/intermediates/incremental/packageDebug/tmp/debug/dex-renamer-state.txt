@@ -1,4 +1,0 @@
-#Mon Nov 22 17:03:11 ICT 2021
-base.0=E\:\\JOB\\test_facebook\\flutter-gherkin\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
